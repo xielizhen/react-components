@@ -10,7 +10,9 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
       '@components': resolve(__dirname, './src/components'),
       '@interfaces': resolve(__dirname, './src/interfaces'),
-      '@pages': resolve(__dirname, './src/pages')
+      '@pages': resolve(__dirname, './src/pages'),
+      '@hooks': resolve(__dirname, './src/hooks'),
+      '@utils': resolve(__dirname, './src/utils')
     }
   }
 });
